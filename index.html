@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" rel="stylesheet">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark justify-content-center">
+        <div class="container">
+            <a class="navbar-brand mr-auto" href="#">
+                <img src="https://res.cloudinary.com/dwaovlupr/image/upload/v1712810252/KSRMLOGO_xyqohy.jpg"
+                    class="navbar-image" alt="" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#" style="color:white;">
+                        HOME <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#aboutMeSection" style="color: white;">ABOUT ME</a>
+                    <a class="nav-link" href="#certificationsMe" style="color: white;">CERTIFICATIONS</a>
+                    <a class="nav-link" href="#myProject" style="color: white;">PROJECTS</a>
+                    <a class="nav-link" href="#contactMe" style="color: white;">CONTACT</a>
+                    <a class="nav-link" href="#" style="color: white;">RESUME</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-center">
+            <p class="banner-caption mb-4">print("Hello,world")</p>
+            <h1 class="banner-heading mb-3">I am Rajasekhar Naidu</h1>
+            <h1 class="banner-heading mb-3">i want to become a data scientist</h1>
+        </div>
+    </div>
+    <div class="aboutmebgcolor" id="aboutMeSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card pt-5 mb-3 mt-5 p-5">
+                        <img src="https://res.cloudinary.com/dwaovlupr/image/upload/v1712816917/profie_tnpap8.jpg"
+                            class="wcu-card-image" />
+                        <p class="wcu-card-title mt-5 "><span style="font-weight: 800; color: #007bff;">Name :</span>
+                            Rajasekhar Naidu</p>
+                        <p class="wcu-card-description">
+                            <span style="font-weight: 800; color: #007bff;">Profile :</span> Data Scientist/ SDE
+                            <br><span style="font-weight: 800; color: #007bff;">Email :</span> craja62002@gmail.com
+                            <br><span style="font-weight: 800; color: #007bff;">Current Location:</span> Hyderabad, TS
+                        </p>
+
+                        <button type="button" class="button mb-3 mt-2" data-toggle="modal"
+                            data-target="#exampleModal">RESUME</button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog mt-5">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title thanking-customers-section-modal-title text-center"
+                                            id="exampleModalLabel">
+                                            RESUME
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="https://res.cloudinary.com/dwaovlupr/image/upload/v1713183385/step6_nrg6dy.jpg"
+                                            class="w-100" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="center">
+                            <h1 class="skills">Skills</h1>
+                            <div class="skill">
+                                <div class="skill-heading">Python</div>
+                                <div class="skill-name">Python (95%)</div>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-fill" style="width: 90%;"></div>
+                                    <div class="skill-label">95%</div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-heading">HTML</div>
+                                <div class="skill-name">HTML (80%)</div>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-fill" style="width: 80%;"></div>
+                                    <div class="skill-label">80%</div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-heading">SQL</div>
+                                <div class="skill-name">SQL (80%)</div>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-fill" style="width: 70%;"></div>
+                                    <div class="skill-label">80%</div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-heading">JavaScript</div>
+                                <div class="skill-name">JavaScript (85%)</div>
+                                <div class="skill-bar">
+                                    <div class="skill-bar-fill" style="width: 85%;"></div>
+                                    <div class="skill-label">85%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-8">
+                    <!-- Skills Section -->
+                    <div class="card mb-3 mt-5">
+                        <div class="card-body">
+                            <h5 class="card-title">About me</h5>
+                            <p>
+                                I am Rajasekhar Naidu i have completed my graduation in the stream of Electronics ans
+                                communication Engineering from
+                                <a class="link-text" href="https://www.ksrmce.ac.in/" target="_blank">KSRM COLLEGE OF
+                                    ENGINEERING</a> in Kadapa.
+                            </p>
+                            <p>
+                                Basically
+                                iam from Andhra Pradhesh but currently staying in Telangana.
+                                I have learnt some software technologies like C, HTMl, CSS, SQL, PYTHON, JAVASCRIPT.
+                                At the end of my graduation i got <span class="ksrm">90%</span>.
+                            </p>
+                            <p>
+                                I did some certification coureces
+                                and got certificates like ASSURE FUNDAMENTALS FROM MICROSOFT, i got CLOUD COMPUTING
+                                certificate from NPTEL ONLINE CERIFICATIONS.
+                            </p>
+                            <p>
+                                I did one internship on INTERNET OF THINGS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-5 " id="certificationsMe">
+        <div class="row">
+            <div class="col-12 col-md-4 col-xl-12">
+                <div class="CSbackgroundcolor p-1">
+                    <div>
+                        <h1 class="courseandcertifications pt-5">COURSES AND CERTIFICATIONS </h1>
+                        <p class="courseandcertifications mb-5">What you focus on grows!</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 certificate-container">
+                            <img src="https://res.cloudinary.com/dwaovlupr/image/upload/v1712904089/NPTEL_akauwg.jpg"
+                                alt="Certificate 1" class="nptel ml-2 mr-5 mb-2">
+                            <p class="mb-5 cloudcomputing">Cloud Computing </p>
+                        </div>
+                        <div class="col-xl-4 certificate-container">
+                            <img src="https://res.cloudinary.com/dwaovlupr/image/upload/v1712904165/SYBER_SECURITY_s5h39n.jpg"
+                                alt="Certificate 1" class="nptel mr-5 mb-2">
+                            <p class="mb-5 cloudcomputing mb-5">CyberSecurity </p>
+                        </div>
+                        <div class="col-xl-4 certificate-container">
+                            <img src="https://res.cloudinary.com/dwaovlupr/image/upload/v1712906800/iotCC_mukhcx.jpg"
+                                alt="Certificate 1" class="nptel mb-2 mr-3">
+                            <p class="mb-5 cloudcomputing">Internet Of Things </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mb-5" id="myProject">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8 col-xl-12">
+                <div class="CSbackgroundcolor p-3">
+                    <h1 class="projects">PROJECT</h1>
+                    <p class="projects">Design is not what it looks like and feels like, design is how it works - Steve
+                        Jobs</p>
+                    <p><span class="projectname">Project Name:</span> Online Fee Paying ,Generating No Due Certificate
+                    </p>
+
+                    <p>The automation of semester fee payments, No Due Certificate
+                        generation, and exam fee payments represents a transformative shift in the administrative
+                        processes of educational institutions. Implementing a robust online payment system allows
+                        students to effortlessly pay their semester fees through secure and user-friendly platforms.
+                        This not only reduces the workload on administrative staff but also minimizes the chances
+                        of errors associated with manual transactions. Automation ensures accurate fee calculations,
+                        provides real-time financial updates, and offers students a seamless experience in managing
+                        their academic finances.
+
+                    <p> Furthermore, the automated system streamlines the generation of No Due
+                        Certificates, a crucial document indicating that a student has cleared all outstanding dues.
+                        By integrating databases and financial records, the system can quickly verify a student's
+                        financial status and generate the certificate, saving valuable time for both students and
+                        administrative personnel. This automation not only expedites the certification process but
+                        also enhances its accuracy and reliability. Students can easily access their No Due
+                        Certificates through the online portal, creating a transparent and efficient system for tracking
+                        financial clearances.</p>
+
+                    <div class="CSbackgroundcolor p-1">
+                        <div>
+                            <h1 class="courseandcertifications pt-5">PROCESS </h1>
+                            <p class="courseandcertifications mb-5">What you focus on grows!</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-4 certificate-container">
+                                <img src="https://res.cloudinary.com/dwaovlupr/image/upload/v1712937865/STEP5_fwlepq.jpg"
+                                    alt="Certificate 1" class="nptel1 ml-2 mr-5 mb-2">
+                                <p class="mb-5 cloudcomputing mr-5">DATA BASE </p>
+                            </div>
+                            <div class="col-xl-4 certificate-container">
+                                <img src="https://res.cloudinary.com/dwaovlupr/image/upload/v1712937328/STEP1_m4zd2b.jpg"
+                                    alt="Certificate 1" class="nptel1 ml-2 mr-5 mb-2">
+                                <p class="mb-5 cloudcomputing mr-5">FLOW CHART </p>
+                            </div>
+                            <div class="col-xl-4 certificate-container">
+                                <img src="https://res.cloudinary.com/dwaovlupr/image/upload/v1712937364/STEP2_zzf3nx.jpg"
+                                    alt="Certificate 1" class="nptel1 ml-2 mr-5 mb-2">
+                                <p class="mb-5 cloudcomputing mr-5">SCREEN NAVIGATION(step-1) </p>
+                            </div>
+                            <div class="col-xl-4 certificate-container">
+                                <img src="https://res.cloudinary.com/dwaovlupr/image/upload/v1712937406/STEP3_gjhcgr.jpg"
+                                    alt="Certificate 1" class="nptel1 mr-5 mb-2">
+                                <p class="mb-5 cloudcomputing mr-5">ADMIN SCREEN(step-2) </p>
+                            </div>
+                            <div class="col-xl-4 certificate-container">
+                                <img src="https://res.cloudinary.com/dwaovlupr/image/upload/v1712937454/STEP4_uovua1.jpg"
+                                    alt="Certificate 1" class="nptel1 mb-2 mr-3">
+                                <p class="mb-5 cloudcomputing mr-5">STUDENT SCREEN(step-3)</p>
+                            </div>
+                            <div class="col-xl-4 certificate-container">
+                                <img src="https://res.cloudinary.com/dwaovlupr/image/upload/v1712938129/NO_DUE_FORM_qwipyr.jpg"
+                                    alt="Certificate 1" class="nptel1 mb-2 mr-3">
+                                <p class="mb-5 cloudcomputing mr-5">NO DUE FORM(final output) </p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mb-5" id="contactMe">
+        <div class="row">
+            <div class="col-12 col-md-4 col-xl-12">
+
+                <div class="contact">
+
+                    <h1 class="projects mt-5">Get In Touch</h1>
+                    <div class="social-icons mb-5 ">
+                        <i class="bi bi-instagram icon-small contact"></i>
+                        <i class="bi bi-linkedin icon-medium"></i>
+                        <i class="bi bi-github icon-large"></i>
+                    </div>
+                    <div class="location">
+                        <i class="bi bi-geo-alt-fill contact-icons"></i> Hyderabad <br>
+                        <i class="bi bi-phone-fill contact-icons"></i> <a href="tel:6302723726">6302723726</a> <br>
+                        <i class="bi bi-envelope-fill contact-icons"></i> <a
+                            href="mailto:craja62002@gmail.com">craja62002@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
